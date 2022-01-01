@@ -2,13 +2,15 @@ html {
   background: url(../images/beautiful-day.jpg) no-repeat top center;
 }
 
-img {
+img
+ {
   position: relative;
   z-index: 11;
   cursor: pointer;
 }
 
-.wrapper {
+.wrapper
+ {
   position: relative;
   width: 960px;
   height: 100vh;
@@ -21,13 +23,15 @@ img {
   height: 514px;
 }
 
-#wheelbarrow { 
+#wheelbarrow
+ { 
   position: relative;
   background: url(../images/wheelbarrow.png) no-repeat;
   z-index: 0;
   top: 220px;
 }
-#wheelbarrow-foreground {
+#wheelbarrow-foreground
+ {
   pointer-events: none;
   position: absolute;
   background: url(../images/wheelbarrow-foreground.png) no-repeat;
